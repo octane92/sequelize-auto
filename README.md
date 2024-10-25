@@ -5,6 +5,7 @@
 [![Build Status](http://img.shields.io/travis/sequelize/sequelize-auto/master.svg)](https://travis-ci.org/sequelize/sequelize-auto) [![Build status](https://ci.appveyor.com/api/projects/status/bf9lb89rmpj6iveb?svg=true)](https://ci.appveyor.com/project/durango/sequelize-auto) [![Code Climate](https://codeclimate.com/github/sequelize/sequelize-auto/badges/gpa.svg)](https://codeclimate.com/github/sequelize/sequelize-auto) [![Test Coverage](https://codeclimate.com/github/sequelize/sequelize-auto/badges/coverage.svg)](https://codeclimate.com/github/sequelize/sequelize-auto/coverage)
 
 Automatically generate models for [SequelizeJS](https://github.com/sequelize/sequelize) via the command line.
+Contains fixes to generate correct cascade fields when using MySQL, other dialects are not tested. Also mediumblob type is correctly generated.
 
 ## Install
 
