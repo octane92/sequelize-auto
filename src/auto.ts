@@ -30,7 +30,7 @@ export class SequelizeAuto {
     } else {
       this.sequelize = new Sequelize(database, username, password, options || {});
     }
-
+    // @ts-ignore
     this.options = _.extend({
       spaces: true,
       indentation: 2,
